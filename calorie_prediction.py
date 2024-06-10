@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # Load the trained model
-loaded_model = pickle.load(open('E:/Machine Learning Projects/Calorie Prediction/trained_calorie.sav', 'rb'))
+loaded_model = pickle.load(open('trained_calorie.sav', 'rb'))
 
 def Calorie_prediction(input_data):
     input_data = list(input_data)
